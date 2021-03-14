@@ -80,7 +80,6 @@ const requests = {
       });
   },
 
-
   // QUESTIONS AND ANSWERS REQUESTS
   getCurrentProductQuestions(currentProductId, callback) {
     axios.get(`${server}/qa/questions`, { params: { product_id: `${currentProductId}` } })
